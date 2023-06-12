@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main()
+int main()
 {
     int arr[10],i,max;
     for(i = 0;i<10;i++){
@@ -13,4 +13,6 @@ main()
         {
             max=arr[i];
         }
-}
+    }    
+     cout<<"largest="<<max;   
+ }
